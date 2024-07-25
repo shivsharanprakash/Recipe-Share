@@ -1,0 +1,91 @@
+[
+    {
+      "title": "Agua de Jamaica",
+      "image": "https://img.freepik.com/free-photo/refreshing-hibiscus-ice-tea-clear-glass-container_23-2149893561.jpg?ga=GA1.1.1129495211.1714569937&semt=ais_user",
+      "description": "Agua de Jamaica is a refreshing hibiscus tea commonly enjoyed in Mexico.",
+      "rating": 4,
+      "author": "J.J Franklin",
+      "link": "https://mexicanfoodjournal.com/agua-de-jamaica-hibiscus/"
+    },
+    {
+      "title": "Chiles en Nogada",
+      "image": "https://img.freepik.com/free-photo/tasty-green-ravioli-pasta-with-onion-basil-leaves-ceramic-plate_23-2148246823.jpg?ga=GA1.1.1129495211.1714569937&semt=ais_user",
+      "description": "Chiles en Nogada is a traditional Mexican dish featuring poblano chiles filled with picadillo and topped with walnut sauce and pomegranate seeds.",
+      "rating": 5,
+      "author": "Maria Sanchez",
+      "link": "https://www.mexicoinmykitchen.com/chiles-en-nogada/"
+    },
+    {
+      "title": "Tacos al Pastor",
+      "image": "https://img.freepik.com/free-photo/high-angle-delicious-tacos-arrangement_23-2150878209.jpg?ga=GA1.1.1129495211.1714569937&semt=ais_user",
+      "description": "Tacos al Pastor are tacos filled with marinated pork cooked on a vertical spit, similar to shawarma.",
+      "rating": 4,
+      "author": "Juan Martinez",
+      "link": "https://www.mexicanplease.com/tacos-al-pastor/"
+    },
+    {
+      "title": "Mole Poblano",
+      "image": "https://img.freepik.com/free-photo/high-angle-beans-sausages-dish_23-2148725050.jpg?ga=GA1.1.1129495211.1714569937&semt=ais_user",
+      "description": "Mole Poblano is a rich sauce made with chocolate and spices, often served over chicken or turkey.",
+      "rating": 5,
+      "author": "Ana Ramirez",
+      "link": "https://www.rickbayless.com/recipe/mole-poblano/"
+    },
+    {
+      "title": "Guacamole",
+      "image": "https://img.freepik.com/free-photo/guacamole-dip_144627-26998.jpg?ga=GA1.1.1129495211.1714569937&semt=sph",
+      "description": "Guacamole is a dip made from mashed avocado mixed with lime juice, onions, tomatoes, and cilantro.",
+      "rating": 4,
+      "author": "Carlos Lopez",
+      "link": "https://www.simplyrecipes.com/recipes/perfect_guacamole/"
+    },
+    {
+      "title": "Cochinita Pibil",
+      "image": "https://img.freepik.com/free-photo/tasty-meal-with-sambal-arrangement_23-2149076156.jpg?ga=GA1.1.1129495211.1714569937&semt=ais_user",
+      "description": "Cochinita Pibil is slow-roasted pork marinated in achiote paste and sour orange juice, often served in tacos.",
+      "rating": 5,
+      "author": "Elena Torres",
+      "link": "https://www.mexicanplease.com/cochinita-pibil/"
+    },
+    {
+      "title": "Tamales",
+      "image": "https://img.freepik.com/free-photo/composition-delicious-traditional-tamales_23-2149009548.jpg?ga=GA1.1.1129495211.1714569937&semt=sph",
+      "description": "Tamales are steamed corn dough filled with various meats, cheese, or vegetables, wrapped in corn husks.",
+      "rating": 4,
+      "author": "Rosa Hernandez",
+      "link": "https://www.isabeleats.com/how-to-make-tamales/"
+    },
+    {
+      "title": "Pozole",
+      "image": "https://img.freepik.com/free-vector/watercolor-delicious-pozole-illustration_23-2149186442.jpg?ga=GA1.1.1129495211.1714569937&semt=sph",
+      "description": "Pozole is a hearty soup made from hominy corn with meat (usually pork), seasoned with chilies and served with various toppings.",
+      "rating": 5,
+      "author": "Miguel Gonzales",
+      "link": "https://www.mexicoinmykitchen.com/pozole-rojo/"
+    },
+    {
+      "title": "Tostadas",
+      "image": "https://img.freepik.com/free-photo/potato-chips_144627-16687.jpg?ga=GA1.1.1129495211.1714569937&semt=sph",
+      "description": "Tostadas are crispy fried or toasted tortillas topped with various ingredients like beans, meat, and vegetables.",
+      "rating": 4,
+      "author": "Isabella Martinez",
+      "link": "https://www.mexicoinmykitchen.com/tostadas-de-pollo/"
+    },
+    {
+      "title": "Ceviche",
+      "image": "https://img.freepik.com/free-vector/watercolor-ceviche-illustration_23-2148782721.jpg?ga=GA1.1.1129495211.1714569937&semt=sph",
+      "description": "Ceviche is a seafood dish typically made from fresh raw fish cured in citrus juices, mixed with onions, tomatoes, and cilantro.",
+      "rating": 5,
+      "author": "Diego Ramirez",
+      "link": "https://www.foodnetwork.com/recipes/classic-ceviche-recipe-1951826"
+    },
+    {
+      "title": "Churros",
+      "image": "https://img.freepik.com/free-photo/traditional-spanish-churros-plate-isolated-white-background_123827-28016.jpg?ga=GA1.1.1129495211.1714569937&semt=sph",
+      "description": "Churros are fried dough pastries, often coated in cinnamon sugar, and served with chocolate or caramel sauce.",
+      "rating": 4,
+      "author": "Luis Hernandez",
+      "link": "https://www.spainonafork.com/authentic-spanish-churros-recipe/"
+    }
+  ]
+  
