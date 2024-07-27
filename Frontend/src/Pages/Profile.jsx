@@ -160,14 +160,14 @@ const Profile = () => {
               className="rounded-full h-48 w-48 md:h-60 md:w-60 object-cover border-2"
             />
           </div>
-          <div className="md:w-2/3 mt-5 md:mt-0 md:pl-10">
+          <div className="md:w-2/3 mt-5 md:mt-6 md:pl-10 ">
             {isEditing ? (
               <div>
                 <input
                   type="text"
                   value={userName}
                   onChange={(e) => setUserName(e.target.value)}
-                  className="text-3xl font-bold text-indigo-400 bg-gray-800 border-b-2 border-indigo-400 focus:outline-none"
+                  className="text-3xl font-bold text-indigo-400 bg-gray-800 border-b-2 border-indigo-400 focus:outline-none "
                 />
                 <textarea
                   value={bio}
@@ -177,8 +177,8 @@ const Profile = () => {
               </div>
             ) : (
               <div>
-                <h1 className="text-4xl font-bold text-orange-400">{userName}</h1>
-                <p className="mt-3 text-lg text-green-200">{bio}</p>
+                <h1 className="text-4xl font-poppins font-bold text-orange-400">{userName}</h1>
+                <p className="mt-3 text-lg font-fredoka text-green-200">{bio}</p>
               </div>
             )}
             <div className="mt-5">

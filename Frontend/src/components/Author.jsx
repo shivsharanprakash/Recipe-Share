@@ -9,30 +9,30 @@ const Author = ({ auth }) => {
             <img
               src={auth.image}
               alt={auth.name}
-              className="rounded-full h-48 w-48 md:h-60 md:w-60 object-cover border-2"
+              className="rounded-full h-48 w-48 md:h-60 md:w-60 object-cover border-2 "
             />
           </div>
           <div className="md:w-2/3 mt-5 md:mt-0 md:pl-10">
-            <h1 className="text-3xl font-bold text-orange-400">{auth.name}</h1>
-            <p className="mt-3 text-lg text-gray-200">{auth.description}</p>
+            <h1 className="text-3xl font-bold font-archivo text-orange-400">{auth.name}</h1>
+            <p className="mt-3 text-lg font-fredoka text-gray-200">{auth.description}</p>
             <div className="mt-5">
-              <h2 className="text-2xl font-semibold text-green-200">Follow Me:</h2>
+              <h2 className="text-2xl font-sans text-white font-semibold">Follow Me :</h2>
               <div className="flex space-x-5 mt-2">
                 <a
                   href={auth.twitter}
-                  className="text-green-200 hover:text-green-300"
+                  className="text-blue-400 hover:text-blue-500"
                 >
                   Twitter
                 </a>
                 <a
                   href={auth.linkedin}
-                  className="text-green-200 hover:text-green-300"
+                  className="text-blue-400 hover:text-blue-500"
                 >
                   LinkedIn
                 </a>
                 <a
                   href={auth.website}
-                  className="text-green-200 hover:text-green-300"
+                  className="text-blue-400 hover:text-blue-500"
                 >
                   Website
                 </a>

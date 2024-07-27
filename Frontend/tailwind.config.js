@@ -7,7 +7,12 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'between-780-840': '780px', // Add custom breakpoint
+        'between-780-840': '780px', // Custom breakpoint
+      },
+      fontFamily: {
+        archivo: ['Archivo Black', 'sans-serif'],
+        fredoka: ['Fredoka', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
     },
   },

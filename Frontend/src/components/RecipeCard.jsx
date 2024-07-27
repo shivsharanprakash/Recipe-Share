@@ -19,8 +19,8 @@ const RecipeCard = ({ recipe }) => {
                         />
                     )}
                 </figure>
-                <div className="card-body p-4">
-                    <h2 className="card-title text-xl font-semibold mb-2">{recipe.title}</h2>
+                <div className="card-body p-4  shadow-sm shadow-amber-300 ">
+                    <h2 className="card-title text-xl text-orange-400 font-archivo font-semibold mb-2">{recipe.title}</h2>
                     <div className="flex items-center my-2">
                         {[...Array(5)].map((_, i) => (
                             <FaStar
@@ -30,9 +30,9 @@ const RecipeCard = ({ recipe }) => {
                             />
                         ))}
                     </div>
-                    <p className="text-gray-400 text-sm mb-2"><strong>Ingredients:</strong> {recipe.ingredients}</p>
-                    <p className="text-gray-400 text-sm"><strong>Instructions:</strong> {recipe.instructions}</p>
-                    <p className="text-gray-400 text-md"><strong>name:</strong> {recipe.name}</p>
+                    <p className="text-gray-200 text-sm mb-2 font-poppins"><strong>Ingredients:</strong> {recipe.ingredients}</p>
+                    <p className="text-gray-200 text-sm font-poppins"><strong>Instructions:</strong> {recipe.instructions}</p>
+                    <p className="text-gray-200 text-sm font-poppins"><strong>name:</strong> {recipe.name}</p>
 
                 </div>
             </div>

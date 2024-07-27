@@ -17,7 +17,7 @@ const Banner = () => {
 
     return (
         <div className="container">
-            <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-4 space-y-2">
+            <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 space-y-2">
             {cusine && cusine.map((item) => (
                 <Cusine key={item._id} item={item} /> 
             ))}

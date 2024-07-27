@@ -79,7 +79,7 @@ const Cuisine = ({
 
   return (
     <div className='container'>
-      <div className="card bg-base-100 w-80 shadow-xl rounded-lg overflow-hidden">
+      <div className="card bg-base-100 w-80 shadow-xl rounded-lg overflow-hidden max-h-[28rem]">
         <figure>
           <img
             src={item.image}
@@ -89,7 +89,7 @@ const Cuisine = ({
         </figure>
         <div className="card-body p-4">
           <div className="flex justify-between items-center">
-            <h2 className="text-xl font-bold">{item.title}</h2>
+            <h2 className="text-xl font-archivo text-orange-400">{item.title}</h2>
             <div onClick={handleFavorite} className="cursor-pointer">
               {favorite ? (
                 <FaHeart className="text-red-500 text-lg" />
@@ -107,9 +107,9 @@ const Cuisine = ({
               />
             ))}
           </div>
-          <p className="text-gray-400 text-sm mt-2">{item.description}</p>
+          <p className="text-gray-300 text-sm mt-2 font-fredoka ">{item.description}</p>
           <div className="mt-2">
-            <p className="font-semibold">{item.author}</p>
+            <p className="font-semibold text-gray-200 font-poppins ">{item.author}</p>
           </div>
           <a href={item.link} className="btn btn-primary mt-2 text-xs">
             Read more

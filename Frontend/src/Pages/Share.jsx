@@ -93,15 +93,16 @@ const Share = () => {
   return (
     <div className="container mx-auto mt-8 px-4 sm:px-6 lg:px-8 dark:text-white">
       <div className="mx-auto">
-        <h1 className="text-3xl font-extrabold mb-4 text-center font-sans">Share Your Recipes</h1>
-        <form onSubmit={handleSubmit} className="mb-8 bg-gray-800 rounded-lg shadow-lg p-6">
+        <h1 className="text-4xl font-extrabold mb-10 mt-10 text-center font-archivo">Share Your Recipes</h1>
+       
+        <form onSubmit={handleSubmit} className="mb-32 bg-gray-800 rounded-lg shadow-sm shadow-gray-300 p-6 ">
           <input
             type="text"
             name="title"
             placeholder="Recipe Title"
             value={formData.title}
             onChange={handleChange}
-            className="border rounded py-2 px-3 mb-2 w-full bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-500"
+            className="border rounded py-2 px-3 mb-2 w-full bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-500 my-2"
           />
           <input
             type="text"
@@ -109,7 +110,7 @@ const Share = () => {
             placeholder="Image URL"
             value={formData.image}
             onChange={handleChange}
-            className="border rounded py-2 px-3 mb-2 w-full bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-500"
+            className="border rounded py-2 px-3 mb-2 w-full bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-500 "
           />
           <textarea
             name="ingredients"
@@ -136,13 +137,14 @@ const Share = () => {
           />
           <button
             type="submit"
-            className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded focus:outline-none"
+            className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded  focus:outline-none mt-2"
           >
             Share Recipe
           </button>
         </form>
+      
         {error && <p className="text-red-500 text-center">{error}</p>}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
           {recipes.length > 0 ? (
             recipes.map((recipe) => (
               <RecipeCard key={recipe._id} recipe={recipe} />

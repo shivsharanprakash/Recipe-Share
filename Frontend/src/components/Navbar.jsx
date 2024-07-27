@@ -17,14 +17,14 @@ const Navbar = () => {
 
     let navinfo = (
         <>
-            <li><Link to='/' className='text-white'>Home</Link></li>
+            <li><Link to='/' className='text-white font-archivo'>Home</Link></li>
             {!authUser ?
                 <li>
-                    <Link to='/login' className='text-white'>Share Recipes</Link>
+                    <Link to='/login' className='text-white font-archivo'>Share Recipes</Link>
                 </li> :
-                <Link to='/share' className='text-white my-auto'>Share Recipes</Link>}
-            <li><Link to='/course' className='text-white'>Cuisine</Link></li>
-            <li><Link to='/authors' className='text-white'>Authors</Link></li>
+                <li><Link to='/share' className='text-white my-auto font-archivo'>Share Recipes</Link></li>}
+            <li><Link to='/course' className='text-white font-archivo'>Cuisine</Link></li>
+            <li><Link to='/authors' className='text-white font-archivo'>Authors</Link></li>
         </>
     )
     return (
@@ -53,7 +53,7 @@ const Navbar = () => {
                                 {navinfo}
                             </ul>
                         </div>
-                        <h1 className=" mx-auto text-4xl font-bold md:font-extrabold font-sans text-green-500">Recipe Exchanger</h1>
+                        <h1 className=" mx-auto text-4xl font-bold md:font-extrabold font-poppins   text-green-500">Recipe Exchanger</h1>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
@@ -62,7 +62,7 @@ const Navbar = () => {
                     </div>
                     {!authUser ?
                         <div className="navbar-end space-x-4">
-                            <Link to='/login' className="btn text-white">Login</Link>
+                            <Link to='/login' className="btn text-white font-archivo">Login</Link>
                         </div> :
                         <div className="navbar-end space-x-4">
                             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
@@ -73,7 +73,7 @@ const Navbar = () => {
                                 </div>
                             </div>
 
-                            <Link onClick={handleLogout} className="btn text-white bg-red-500">Logout</Link>
+                            <Link onClick={handleLogout} className="btn text-white bg-red-500 font-archivo">Logout</Link>
                         </div>
                     }
 

@@ -23,7 +23,7 @@ const Course = () => {
       <div>
         <Navbar />
         <div className="container mx-auto mt-20 mb-20">
-          <div className="mt-12 grid grid-cols-1   md:grid-cols-3 gap-4 space-y-2">
+          <div className="mt-12 grid grid-cols-1   md:grid-cols-3 gap-8 space-y-2">
             {cards && cards.map((card) => (
               <Card
                 key={card._id}

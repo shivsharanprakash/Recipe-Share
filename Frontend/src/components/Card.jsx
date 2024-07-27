@@ -71,7 +71,7 @@ const Card = ({ card = {}, onRatingUpdate = () => { }, isFavorite = false, onFav
 
   return (
     <div className='container'>
-      <div className="card bg-base-100 w-80 shadow-xl rounded-lg overflow-hidden">
+      <div className="card bg-base-100 w-80 shadow-xl rounded-lg overflow-hidden max-h-[28rem]">
         <figure>
           <img
             src={card.image}
@@ -81,7 +81,7 @@ const Card = ({ card = {}, onRatingUpdate = () => { }, isFavorite = false, onFav
         </figure>
         <div className="card-body p-4">
           <div className="flex justify-between items-center">
-            <h2 className="text-xl font-bold">{card.title}</h2>
+            <h2 className="text-xl  text-orange-400 font-archivo ">{card.title}</h2>
             <div onClick={handleFavorite} className="cursor-pointer">
               {favorite ? (
                 <FaHeart className="text-red-500 text-lg" />
@@ -99,9 +99,9 @@ const Card = ({ card = {}, onRatingUpdate = () => { }, isFavorite = false, onFav
               />
             ))}
           </div>
-          <p className="text-gray-400 text-sm mt-2">{card.description}</p>
+          <p className="text-gray-300 font-fredoka text-sm mt-2">{card.description}</p>
           <div className="mt-2">
-            <p className="font-semibold">{card.author}</p>
+            <p className="font-semibold text-gray-200 font-poppins">{card.author}</p>
           </div>
           <a href={card.link} className="btn btn-primary mt-2 text-xs">
             Read more

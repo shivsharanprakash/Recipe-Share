@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
     <div>
-    <div className='container-fluid'>
+    <div className='container-fluid '>
         <Navbar/>
     </div>
     <div className='container-fluid mt-16 mb-24'>
