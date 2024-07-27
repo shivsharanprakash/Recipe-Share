@@ -15,7 +15,6 @@ const Card = ({ card = {}, onRatingUpdate = () => { }, isFavorite = false, onFav
     onRatingUpdate(card._id, newRating);
   };
 
-
   const handleFavorite = async () => {
     const storedUser = JSON.parse(localStorage.getItem('User'));
     const token = storedUser?.authToken;
@@ -44,8 +43,7 @@ const Card = ({ card = {}, onRatingUpdate = () => { }, isFavorite = false, onFav
         } else {
           console.error('Failed to remove from favorites:', data.message);
         }
-      }
-      else {
+      } else {
         const response = await fetch(`http://localhost:3000/favorites`, {
           method: 'POST',
           headers: {
@@ -62,17 +60,14 @@ const Card = ({ card = {}, onRatingUpdate = () => { }, isFavorite = false, onFav
           console.error('Failed to add to favorites:', data.message);
         }
       }
-    }
-    catch (error) {
+    } catch (error) {
       console.error('Error updating favorites:', error);
     }
   };
 
-
   if (!card) {
     return <div>Loading...</div>;
   }
-
 
   return (
     <div className='container'>
